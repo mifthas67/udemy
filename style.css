@@ -18,6 +18,8 @@ body {
     border-bottom: solid black 1px;
     gap: 20px;
     position: sticky;
+    top:0;
+    background-color: white;
 
 }
 
@@ -87,6 +89,26 @@ body {
 .content img {
 
     width: 100%;
+   
+}
+
+.content{
+
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.offer{
+
+    border: solid black 1px;
+    width: fit-content;
+    position: absolute;
+    z-index: 2;
+    top:50px;
+    left: 50px;
+    padding: 20px;
 
 }
 
