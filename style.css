@@ -17,6 +17,7 @@ body {
     justify-content: space-between;
     border-bottom: solid black 1px;
     gap: 20px;
+    position: sticky;
 
 }
 
