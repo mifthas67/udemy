@@ -18,14 +18,17 @@ body {
     border-bottom: solid black 1px;
     gap: 20px;
     position: sticky;
-    top:0;
+    top: 0;
     background-color: white;
+    z-index: 1;
+
 
 }
 
 .navbar__s1__title {
 
     color: blueviolet;
+
 
 
 }
@@ -56,11 +59,44 @@ body {
 
 }
 
+
+
 .navbar__s3 {
 
     display: flex;
     gap: 10px;
     align-items: center;
+    position: relative;
+
+
+}
+
+.navbar__s3__pop_up {
+
+    width: fit-content;
+    border: solid black 1px;
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    display: none;
+
+
+}
+
+.navbar__s3__learning {
+
+    cursor: pointer;
+
+
+}
+
+.navbar__s3__learning:hover .navbar__s3__pop_up {
+
+    display: block;
+    z-index: 2;
+
+
+
 
 }
 
@@ -89,10 +125,10 @@ body {
 .content img {
 
     width: 100%;
-   
+
 }
 
-.content{
+.content {
 
     position: relative;
     z-index: 1;
@@ -100,13 +136,13 @@ body {
 
 }
 
-.offer{
+.offer {
 
     border: solid black 1px;
     width: fit-content;
     position: absolute;
     z-index: 2;
-    top:50px;
+    top: 50px;
     left: 50px;
     padding: 20px;
 
@@ -189,16 +225,15 @@ body {
 
 }
 
-.footer__s1 p{
+.footer__s1 p {
 
     margin-bottom: 20px;
 }
 
-.footer__s2{
+.footer__s2 {
 
-display: flex;
-justify-content: space-between;
-padding: 20px;
-align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
 }
-
