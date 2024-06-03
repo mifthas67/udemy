@@ -109,7 +109,15 @@ body {
     border-bottom: solid black 1px;
     padding: 10px;
     align-items: center;
+    
 
+
+}
+
+.menu:hover{
+
+    cursor: pointer;
+    
 
 }
 
@@ -145,6 +153,19 @@ body {
     top: 50px;
     left: 50px;
     padding: 20px;
+    animation-name: offer_flash;
+    animation-duration: 5s;
+    
+
+}
+
+@keyframes offer_flash{
+ 
+  10%{transform:scale(10%)
+        } 
+
+
+
 
 }
 
